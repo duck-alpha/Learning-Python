@@ -1,0 +1,10 @@
+name = input('What is your name? ')
+Current = int(input('What is your current bank balance? '))
+Deposit = int(input('How much do you want to deposit?' ))
+print('====================================')
+print('Name           :' + name )
+print('Old Balance    :' + str(Current) )
+print('Deposit amount :' + str(Deposit) )
+print('New balance    :' + str(Current + Deposit) )
+print('=====================================')
+
